@@ -1,6 +1,7 @@
 body {
     background-image: url("../assets/img/background.jpg");
     background-repeat: repeat;
+    width:100%;
 }
 
 .nav{
@@ -79,23 +80,33 @@ h1{
 } 
 
 #video {
-    text-align:center;
+    text-align:left;
     
 }
 
 #icon {
-    width: 5%;
-    position:absolute;
+    width: 50%;
+    position:relative;
     top: 15px;
 }
 
 #tableau {
     position:relative;
-    width:60%;
+    width:20%;
     margin: 0 auto;
-    margin-top:150px;
     text-align:center;
     font-size:20px;
+    margin-left:0%;
     
 }
              
+.sidebyside {
+    /* float:left; */
+    width:50%;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.tableau-attempt {
+    width: 100px ip !important;
+}
